@@ -7,6 +7,5 @@ def check_size(number):
         return "Large"
 
 
-# Example usage
 num = int(input("Enter a number: "))
 print(check_size(num))
