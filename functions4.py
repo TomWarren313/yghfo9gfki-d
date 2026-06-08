@@ -6,4 +6,5 @@ def check_weather(temperature):
     else:
         return 'warm'
     
-print(check_weather(30))
+weather = int(input("Check Weather: "))
+print(check_weather(weather))

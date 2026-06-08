@@ -9,3 +9,4 @@ def check_size(number):
 
 num = int(input("Enter a number: "))
 print(check_size(num))
+#im like 90% sure this work

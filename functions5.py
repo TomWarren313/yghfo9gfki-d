@@ -5,5 +5,5 @@ def check_age(age):
         return 'Adult'
     if age >= 13 and age <= 17:
         return 'Teenager'
-age = int(input('Enter your age: '))    
-print(check_age(age))
+skibi = int(input('Enter your age: '))    
+print(check_age(skibi))
