@@ -1,9 +1,10 @@
 ytic = []
 def city():
-    cities = input('Enter a city: ')
-    ytic.append(cities)
+    for i in range(5):
+      cities = input('Enter a city: ')
+      ytic.append(cities)
     return cities
-for i in range(5):
-    city()
+
+city()
 for cities in ytic:
   print(cities, len(cities), 'characters')
